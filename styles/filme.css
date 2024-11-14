@@ -4,7 +4,7 @@
     src: url(/fontes/brugenfield-ax9re.ttf);
 }
 @font-face {
-    font-family: leaner;
+    font-family: "leaner";
     src: url(/fontes/Leaner\ Bold.otf);
 }
 
@@ -95,7 +95,7 @@ body {
     text-align: center;
     margin-top: 50px;
     color: white;
-    font-family: leaner;
+    font-family: "leaner";
     font-size: 50px;
 }
 
