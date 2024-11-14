@@ -4,8 +4,8 @@
     src: url(/fontes/brugenfield-ax9re.ttf);
 }
 @font-face {
-    font-family: "leaner";
-    src: url(/fontes/Leaner\Bold.otf);
+    font-family: 'leaner';
+    src: url('../fontes/Leaner\ Bold.otf');
 }
 
 * {
