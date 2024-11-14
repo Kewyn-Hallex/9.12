@@ -3,6 +3,10 @@
     font-family: romantic;
     src: url(/fontes/brugenfield-ax9re.ttf);
 }
+@font-face {
+    font-family: leaner;
+    src: url(/fontes/Leaner\ Bold.otf);
+}
 
 * {
     margin: 0;
@@ -91,7 +95,7 @@ body {
     text-align: center;
     margin-top: 50px;
     color: white;
-    font-family: romantic;
+    font-family: leaner;
     font-size: 50px;
 }
 
