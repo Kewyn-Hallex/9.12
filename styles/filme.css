@@ -137,3 +137,26 @@ body {
 span{
     color: blue;
 }
+
+.tipoFilme{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.containerTipo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    background-color: #1c1d24;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.tipoText{
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
