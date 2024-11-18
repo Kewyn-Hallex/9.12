@@ -110,6 +110,7 @@ body {
 .videoFilme{
     width: 380px;
     height: 200px;
+    border-radius: 8px;
 }
 
 .catalogoFilme{
