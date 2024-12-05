@@ -13,3 +13,12 @@ function mudarImagem() {
 
 // Inicia o slider
 setInterval(mudarImagem, 3000); // Chama a função a cada 2 segundos
+
+
+const allSkeleton = document.querySelectorAll('.skeleton')
+
+window.addEventListener('load', function() {
+  allSkeleton.forEach(item=> {
+    item.classList.remove('skeleton')
+  })
+})
