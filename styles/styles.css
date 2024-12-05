@@ -246,9 +246,10 @@ body {
 }
 
 .card {
-    width: 124px;
-    height: 185px;
+    width: 126px;
+    height: 187px;
     background: transparent;
+    margin-left: 2px;
 }
 
 .skeleton {
@@ -452,8 +453,8 @@ body {
 }
 
 .card1 {
-    width: 150px;
-    height: 250px;
+    width: 152px;
+    height: 252px;
     margin-left: 2rem;
     border: none;
 }
