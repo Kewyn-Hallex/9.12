@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Page</title>
+    <link rel="stylesheet" href="../styles/timer.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <h1 class="heading">O TEMPO DO NOSSO AMOR</h1>
+        <p class="description">Que o nosso amor cresça a cada dia, e que a confiança mútua seja a base que nos une, tornando cada momento juntos ainda mais especial.</p>
+
+        <div class="timer">
+            <div class="sub_timer">
+                <h1 id="day" class="digit">00</h1>
+                <p class="digit_name">Days</p>
+            </div>
+            <div class="sub_timer">
+                <h1 id="hour" class="digit">00</h1>
+                <p class="digit_name">Hours</p>
+            </div>
+            <div class="sub_timer">
+                <h1 id="min" class="digit">00</h1>
+                <p class="digit_name">Minutes</p>
+            </div>
+            <div class="sub_timer">
+                <h1 id="sec" class="digit">00</h1>
+                <p class="digit_name">Seconds</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- javascript  -->
+    <script>
+          var target_mili_sec = new Date("Dec 10, 2023 01:01:0").getTime();
+          function timer() {
+              var now_mili_sec = new Date().getTime();
+              var remaining_sec = Math.floor( (target_mili_sec - now_mili_sec) / 1000 );
+
+              var day = Math.floor(remaining_sec / (3600 * 24));
+              var hour = Math.floor((remaining_sec % (3600 * 24)) / 3600);
+              var min = Math.floor((remaining_sec % 3600) / 60);
+              var sec = Math.floor(remaining_sec % 60);
+
+              document.querySelector("#day").innerHTML = day;
+              document.querySelector("#hour").innerHTML = hour;
+              document.querySelector("#min").innerHTML = min;
+              document.querySelector("#sec").innerHTML = sec;
+          }
+
+          setInterval(timer, 1000); //1000 it means 1 sec
+          
+    </script>
+
+    
+</body>
+</html>

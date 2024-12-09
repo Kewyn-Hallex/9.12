@@ -354,15 +354,37 @@
             }
         }
 
-        .texto {
-            align-items: center;
+        .card-text{
+            margin-top: 700px;
+            width: 400px;
+            display: flex;
             justify-content: center;
-            top: 50%;
-            color: white;
-            font-size: 55px;
+            align-items: center;
             position: absolute;
-            left: 23%;
-            margin-right: 30%;
+        }
+
+        .texto {
+            top: 80%;
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            font-family: monospace;
+            border-right: 4px solid;
+            width: 1004ch;
+            overflow: hidden;
+            animation: typing 60s steps(1004), blinking 60s infinite step-end alternate;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+        }
+
+        @keyframes blinking {
+            50%{
+                border-color: transparent;
+            }
         }
 
         .inicit{
@@ -374,7 +396,6 @@
 
 <body>
 
-    <a class="inicit" href="../index.html"><i class="bi bi-arrow-left"></i></a>
     <div class="container">
         <div class="glass">
             <div class="shine"></div>
@@ -407,8 +428,18 @@
             <div></div>
         </div>
     </div>
-    <div>
-        <h4 class="texto"><br></h>
+    <div class="card-text">
+        <h4 class="texto">Meu amor,
+
+            Às vezes fico sem palavras ao tentar expressar o que sinto por você. Seu sorriso, tão lindo e espontâneo, tem o poder de transformar qualquer dia comum em algo especial. Seu cabelo ondulado, que parece dançar a cada movimento, é só um dos detalhes que me encantam em você. Cada vez que te olho, me sinto mais apaixonado e mais grato por ter você na minha vida.
+            
+            Você é quem faz meus dias mais felizes, quem traz alegria até nos momentos mais simples. Não sei o que faria sem você ao meu lado. Você é meu apoio, minha inspiração, e a razão de tantos sorrisos. A verdade é que, com você, tudo parece mais fácil, mais leve, e o mundo se torna um lugar melhor.
+            
+            Você é tudo para mim, mais do que eu jamais imaginei encontrar. Eu só quero que saiba o quanto você é importante, e como minha vida ficou infinitamente mais bonita desde que você entrou nela. Quero viver mais momentos ao seu lado, construir memórias e ver nossos dias se tornarem cada vez mais especiais.
+            
+            Com todo o meu amor,
+            Kewyn.
+        </h4>
     </div>
 
 </body>
