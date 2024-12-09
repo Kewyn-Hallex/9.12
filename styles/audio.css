@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card-audio{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.anel{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 0 0
+}
+
+.audio {
+    margin-top: -45px;
+    border-radius: 0 0 10px 10px; /* Superior esquerdo, superior direito, inferior direito, inferior esquerdo */
+    overflow: hidden;
+    background-color: #f0f0f0; /* Não afeta o player padrão */
+}
